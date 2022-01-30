@@ -22,7 +22,7 @@ apply plugin: "org.jetbrains.grammarkit"
 group 'tech.phosphorus'
 version '0.1.2.3'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.11
 
 repositories {
     if (!System.getenv("CI")?.trim()) {
